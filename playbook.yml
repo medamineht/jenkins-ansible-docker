@@ -2,6 +2,7 @@
 - name: install wartest
   hosts: all
   become: yes
+  remote_user: prod
   roles:
     - wartest
 
